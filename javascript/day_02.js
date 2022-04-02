@@ -17,9 +17,9 @@ Note que cada informação entre [ ] é uma das respostas dadas pela pessoa.
 */
 
 function getUserInfo() {
-  let name = prompt("Qual o seu nome?");
-  let age = prompt("Quantos anos você tem?");
-  let language = prompt("Qual linguagem de programação você está estudando?");
+  const name = prompt("Qual o seu nome?");
+  const age = prompt("Quantos anos você tem?");
+  const language = prompt("Qual linguagem de programação você está estudando?");
 
   console.log(`Olá ${name}, você tem ${age} anos e já está aprendendo ${language}!`);
 }
