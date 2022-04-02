@@ -23,3 +23,15 @@ function getUserInfo() {
 
   console.log(`Olá ${name}, você tem ${age} anos e já está aprendendo ${language}!`);
 }
+
+function user_awser() {
+  console.log('Você gosta de usar a ${language}?')
+
+  const awser = prompt('responda 1 para sim e 2 não: ')
+  if (awser === '1') {
+    console.log('Você gosta de usar a ${language}?')
+  } else {
+    console.log('Você não gosta de usar a ${language}?')
+  }
+
+}
